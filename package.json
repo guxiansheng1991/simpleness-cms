@@ -1,0 +1,37 @@
+{
+  "name": "create-react-app-antd",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "3.9.2",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.8.0",
+    "classnames": "^2.2.6",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-app-rewire-less": "^2.1.2",
+    "react-app-rewired": "^1.5.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "url-search-params-polyfill": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "npm test && react-app-rewired build",
+    "test": "eslint src/ --fix",
+    "publish": "NODE_ENV_RELEASE=1 npm run build && node publish"
+  },
+  "devDependencies": {
+    "any-file": "^0.0.24",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
